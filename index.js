@@ -28,7 +28,7 @@ app.use("/checkCreated", checkRouter);
 
 // autoDelete();
 
-const port = process.env.port || 5000;
+const port = process.env.port || 4000;
 app.listen(port, () => {
   console.log("Server Listening on port " + port);
 });
